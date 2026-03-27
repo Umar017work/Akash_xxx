@@ -23,7 +23,7 @@
     <!-- Header & Navigation -->
     <header class="glass-nav" id="navbar">
         <div class="nav-container">
-            <a href="#" class="logo">
+            <a href="index.html" class="logo">
                 <img src="https://spm.du.ac.in/templates/spm/images/college_logo.jpeg" alt="SPM College Logo">
                 <div class="logo-text">
                     <h1>SPM College</h1>
@@ -35,12 +35,21 @@
             </div>
             <nav class="nav-links" id="nav-links">
                 <a href="#home" class="active">Home</a>
-                <a href="#about">About</a>
-                <a href="#academics">Academics</a>
-                <a href="#admission">Admissions</a>
-                <a href="#facility">Facilities</a>
-                <a href="#updates">Updates</a>
-                <a href="https://spm.du.ac.in/index.php?option=com_users&view=login&Itemid=203&lang=en" target="_blank" class="btn btn-primary">Login</a>
+                <a href="about.html">About</a>
+                <div class="dropdown">
+                    <a href="departments.html">Academics <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="departments.html">Departments</a>
+                        <a href="academics.html">Academics</a>
+                        <a href="academics.html#timetable">Time Table</a>
+                        <a href="academics.html#calendar">Academic Calendar</a>
+                        <a href="academics.html#syllabus">Syllabus</a>
+                    </div>
+                </div>
+                <a href="admissions.html">Admissions</a>
+                <a href="events.html">Events</a>
+                <a href="updates.html">Updates</a>
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
             </nav>
         </div>
     </header>
@@ -58,8 +67,8 @@
             <h1 class="animate-up">Shyama Prasad Mukherji College for Women</h1>
             <p class="animate-up delay-1">श्यामा प्रसाद मुखर्जी महिला महाविद्यालय | दिल्ली विश्वविद्यालय</p>
             <div class="hero-actions animate-up delay-2">
-                <a href="#admission" class="btn btn-primary pulse">Admission 2025-26</a>
-                <a href="#about" class="btn btn-outline">Discover SPMC</a>
+                <a href="admissions.html" class="btn btn-primary pulse">Admission 2025-26</a>
+                <a href="about.html" class="btn btn-outline">Discover SPMC</a>
             </div>
         </div>
     </section>
@@ -108,6 +117,78 @@
                         <h4>Prof. Neelam Goel</h4>
                         <span>(Acting Principal)</span>
                     </div>
+                    <div style="margin-top:20px;">
+                        <a href="about.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="section-padding">
+        <div class="container text-center">
+            <span class="section-subtitle">Knowledge & Growth</span>
+            <h2 class="section-title">Academics</h2>
+            <div class="academics-grid">
+                <a href="departments.html" class="academic-card glass-panel">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Departments</h3>
+                    <p>Explore all 19 academic departments offering BA, BSc, BCom and more.</p>
+                </a>
+                <a href="academics.html#syllabus" class="academic-card glass-panel">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Syllabus</h3>
+                    <p>Access course syllabuses for all undergraduate programmes.</p>
+                </a>
+                <a href="academics.html#calendar" class="academic-card glass-panel">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>Academic Calendar</h3>
+                    <p>View the complete academic schedule, holidays and exam dates.</p>
+                </a>
+                <a href="academics.html#timetable" class="academic-card glass-panel">
+                    <i class="fas fa-clock"></i>
+                    <h3>Time Table</h3>
+                    <p>Check the class timetable for your department and semester.</p>
+                </a>
+                <a href="academics.html#examination" class="academic-card glass-panel">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Examination</h3>
+                    <p>Examination schedule, results and related notifications.</p>
+                </a>
+                <a href="academics.html#library" class="academic-card glass-panel">
+                    <i class="fas fa-university"></i>
+                    <h3>Library</h3>
+                    <p>Access the college's digital and physical library resources.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section id="admission" class="section-padding bg-light">
+        <div class="container text-center">
+            <span class="section-subtitle">Join Us</span>
+            <h2 class="section-title">Admissions 2025-26</h2>
+            <p style="max-width:650px; margin:0 auto 2rem; color:var(--text-light);">SPM College admits students through the Central University Admissions portal of the University of Delhi. Explore our programmes and take the first step towards a transformative educational journey.</p>
+            <div class="admission-cards">
+                <div class="ad-card glass-panel">
+                    <i class="fas fa-laptop-code"></i>
+                    <h4>Apply Online</h4>
+                    <p>Apply through the Delhi University CUET portal</p>
+                    <a href="admissions.html" class="btn btn-primary">Apply Now</a>
+                </div>
+                <div class="ad-card glass-panel">
+                    <i class="fas fa-rupee-sign"></i>
+                    <h4>Fee Structure</h4>
+                    <p>View detailed fee structures for all courses</p>
+                    <a href="admissions.html" class="btn btn-outline" style="color:var(--primary)!important; border-color:var(--primary);">View Fees</a>
+                </div>
+                <div class="ad-card glass-panel">
+                    <i class="fas fa-award"></i>
+                    <h4>Scholarships</h4>
+                    <p>Learn about available scholarships and financial aid</p>
+                    <a href="admissions.html" class="btn btn-outline" style="color:var(--primary)!important; border-color:var(--primary);">Learn More</a>
                 </div>
             </div>
         </div>
@@ -122,21 +203,21 @@
                 <div class="updates-panel glass-panel">
                     <div class="panel-header">
                         <h3><i class="fas fa-bell"></i> Latest Updates</h3>
-                        <a href="#" class="view-all">View All</a>
+                        <a href="updates.html" class="view-all">View All</a>
                     </div>
                     <ul class="news-list" id="news-ticker">
                         <li>
                             <span class="new-badge">New</span>
-                            <a href="#">Notice regarding interview for the 'All Round Best Student Award' 2024 with revised list</a>
+                            <a href="https://drive.google.com/file/d/1fyxriwXzBU1KZGwHwS_xfLkFdfHuKJvW/view?usp=sharing" target="_blank">Notice regarding interview for 'Best Student Award' 2024</a>
                         </li>
                         <li>
-                            <a href="#">Notice for all prize winners on College Annual Day to be held on 19th March 2025</a>
+                            <a href="https://drive.google.com/file/d/1iZKi50PFAQlMhAA5ouALZ-W3xZmn9kR1/view" target="_blank">Notice regarding interview for 'Best Student Award' 2024</a>
                         </li>
                         <li>
-                            <a href="#">Notice for Prize Winners / College topper list for the year 2023-2024</a>
+                            <a href="https://drive.google.com/file/d/1reUGzypImqt6F8C4ymRQy3lxHvcDQQnW/view?usp=sharing" target="_blank">Notice for Prize Winners - College Annual Day</a>
                         </li>
                         <li>
-                            <a href="#">Notice regarding interview schedule for Guest Assistant Professor in Department of Political Science</a>
+                            <a href="https://drive.google.com/file/d/1nPCWBrG8YLS985tcNiqu_U3REhA1E6Xj/view?usp=sharing" target="_blank">Notice for Prize Winners / College topper list</a>
                         </li>
                     </ul>
                 </div>
@@ -145,7 +226,7 @@
                 <div class="events-panel glass-panel">
                     <div class="panel-header">
                         <h3><i class="far fa-calendar-alt"></i> Event Calendar</h3>
-                        <a href="#" class="view-all">View All</a>
+                        <a href="events.html" class="view-all">View All</a>
                     </div>
                     <div class="events-list">
                         <div class="event-card">
@@ -154,7 +235,7 @@
                                 <span class="day">23</span>
                             </div>
                             <div class="event-details">
-                                <h4>Two-Day National Seminar on “Indian Knowledge Tradition..."</h4>
+                                <h4>Two-Day National Seminar on “Ramcharitmanas..."</h4>
                             </div>
                         </div>
                         <div class="event-card">
@@ -193,36 +274,36 @@
                     
                     <div class="testimonial-card glass-panel">
                         <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                        <p class="quote-text">I really enjoyed my time in SPM, especially the inter-departmental fests and seminars that happened. I was also a part of Thirkan, the dance society, that became like family to me.</p>
+                        <p class="quote-text">I really enjoyed my time in SPM, especially the inter-departmental fests and seminars that happened.</p>
                         <div class="client-info">
-                            <img src="https://spm.du.ac.in/templates/spm/images/image2.jpeg" alt="Vaishnavi Vishwanath">
+                            <img src="https://spm.du.ac.in/templates/spm/images/image2.jpeg" alt="Vaishnavi">
                             <div>
                                 <h4>Vaishnavi Vishwanath</h4>
-                                <span>Research Scholar, Chennai Mathematical Institute</span>
+                                <span>Research Scholar, CMI</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="testimonial-card glass-panel">
                         <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                        <p class="quote-text">श्यामा प्रसाद मुखर्जी कॉलेज, जिसने मेरे सपनों को उड़ान दी। मेरे गुरुजनों ने मुझे जीवन जीने की कला सिखाई। श्यामा प्रसाद मुखर्जी कॉलेज में बिताए मेरे 3 वर्षों को शब्दों में व्यक्त करना मेरे लिए बहुत मुश्किल है।</p>
+                        <p class="quote-text">श्यामा प्रसाद मुखर्जी कॉलेज, जिसने मेरे सपनों को उड़ान दी। मेरे गुरुजनों ने मुझे जीवन जीने की कला सिखाई।</p>
                         <div class="client-info">
                             <img src="https://spm.du.ac.in/templates/spm/images/sangita.jpeg" alt="Sangeeta">
                             <div>
                                 <h4>Sangeeta</h4>
-                                <span>Assistant Professor, Dyal Singh Evening College</span>
+                                <span>Assistant Professor</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="testimonial-card glass-panel">
                         <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                        <p class="quote-text">SPM has given me lot of good memories. Ours was first batch of BSc(H) CS. This college taught me collaboration, leadership quality and lots of positive things. I am proud to be associated with SPM.</p>
+                        <p class="quote-text">SPM has given me lot of good memories. This college taught me collaboration and leadership quality.</p>
                         <div class="client-info">
-                            <img src="https://spm.du.ac.in/templates/spm/images/image3.jpeg" alt="Dr. Supreet Kaur Sahi">
+                            <img src="https://spm.du.ac.in/templates/spm/images/image3.jpeg" alt="Supreet">
                             <div>
                                 <h4>Dr. Supreet Kaur Sahi</h4>
-                                <span>Assistant Professor SGGSCC, DU</span>
+                                <span>Assistant Professor, DU</span>
                             </div>
                         </div>
                     </div>
@@ -232,23 +313,6 @@
                 <div class="slider-controls">
                     <button id="prev-btn" class="ctrl-btn"><i class="fas fa-chevron-left"></i></button>
                     <button id="next-btn" class="ctrl-btn"><i class="fas fa-chevron-right"></i></button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Facility preview banner -->
-    <section id="facility" class="facilities-banner parallax" style="background-image: linear-gradient(rgba(235, 33, 37, 0.9), rgba(235, 33, 37, 0.9)), url('http://spm.du.ac.in/images/SPMC.jpeg');">
-        <div class="container text-center">
-            <div class="banner-content">
-                <h2>Explore Campus Facilities</h2>
-                <p>Equipped with a modernized library, vast sports ground, canteen, IT infrastructure, and various resource centres supporting holistic student development.</p>
-                <div class="facilities-tags">
-                    <span>Library</span>
-                    <span>IT Infrastructure</span>
-                    <span>Medical Facility</span>
-                    <span>Sports Ground</span>
-                    <span>English Language Support Center</span>
                 </div>
             </div>
         </div>
@@ -265,41 +329,39 @@
                     </div>
                     <p>Established in 1969, Shyama Prasad Mukherji College for Women is a constituent college of the University of Delhi.</p>
                     <div class="social-links">
-                        <a href="https://www.facebook.com/profile.php?id=100063981343873"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://twitter.com/SpmcollegeD"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/spmcofficial/"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.youtube.com/channel/UCBpnKrmrPJODKP-h5nh-Ybg"><i class="fab fa-youtube"></i></a>
-                        <a href="https://www.linkedin.com/school/shyama-prasad-mukherji-college-for-women/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100063981343873" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/SpmcollegeD" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/spmcofficial/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCBpnKrmrPJODKP-h5nh-Ybg" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/school/shyama-prasad-mukherji-college-for-women/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 
                 <div class="footer-col">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#">Faculty Login</a></li>
-                        <li><a href="#">Student Login</a></li>
-                        <li><a href="#">Fee Payment</a></li>
-                        <li><a href="#">Academic Calendar</a></li>
-                        <li><a href="#">Time Table</a></li>
+                        <li><a href="updates.html">Latest Updates</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="academics.html">Academic Calendar</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="departments.html">Departments</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-col">
                     <h4>Discover</h4>
                     <ul>
-                        <li><a href="#">About SPM</a></li>
-                        <li><a href="#">Departments</a></li>
-                        <li><a href="#">Research & Innovation</a></li>
-                        <li><a href="#">Placement Cell</a></li>
-                        <li><a href="#">IQAC / NAAC / NIRF</a></li>
+                        <li><a href="about.html">About SPM</a></li>
+                        <li><a href="departments.html">Departments</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-col">
                     <h4>Contact Us</h4>
                     <p><i class="fas fa-map-marker-alt"></i> Punjabi Bagh (West), New Delhi - 110026</p>
-                    <p><i class="fas fa-envelope"></i> spmcollegedu@gmail.com</p>
-                    <p><i class="fas fa-phone"></i> +91-11-25224499</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:spmcollegedu@gmail.com" style="color:inherit;">spmcollegedu@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+911125224499" style="color:inherit;">+91-11-25224499</a></p>
                 </div>
             </div>
             
